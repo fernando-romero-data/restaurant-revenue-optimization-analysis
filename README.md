@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Revenue Optimization System
 
-### End-to-End Data Analytics & Business Strategy Case Study
+### End-to-End Data Analytics → Revenue Strategy → Execution System
 
 ---
 
@@ -8,11 +8,11 @@
 
 If you're reviewing this project:
 
-1. Start with **Executive Report (Workbook 9)** → Final business strategy
-2. Then review **Revenue Drivers (Workbook 5)** → Core insight (AOV)
-3. Then **Demand Analysis (Workbook 3)** → Customer behavior patterns
+1. Start with **Owner Strategy Playbook (Workbook 10)** → What to do
+2. Then **Executive Report (Workbook 9)** → Why it works
+3. Then **Revenue Drivers (Workbook 5)** → Core insight (AOV)
 
-This project is designed as a **full analytics system**, not a single notebook.
+This project is designed as a **complete revenue system**, not a single notebook.
 
 ---
 
@@ -24,14 +24,36 @@ Most restaurants try to grow revenue by:
 * Running discounts
 * Expanding marketing
 
-**But this project tests a different hypothesis:**
+**This project tests a different approach:**
 
 > Revenue growth can be achieved **without increasing traffic**
-> by optimizing how each transaction captures value.
+> by improving how each order captures value.
 
 ---
 
 ## 🔍 Key Insights
+
+### 💰 Revenue is Driven by a Small Number of Items
+
+![Top Revenue Items](visuals/top_revenue_items.png)
+
+* A small group of menu items generates the majority of revenue
+* Core entrees and add-ons (e.g., cheese dip) drive performance
+* Highlights opportunity to simplify the menu and promote top items
+
+---
+
+### 💵 Order Value (AOV) Drives Revenue Growth
+
+![Order Value Segmentation](visuals/wb5_order_value_segmentation.png)
+
+* High-value orders generate the majority of revenue
+* Mid-value orders represent the largest growth opportunity
+* Low-value orders dominate volume but contribute minimal revenue
+
+> **Insight:** Increasing AOV has greater impact than increasing traffic
+
+---
 
 ### ⏰ Demand is Time-Concentrated
 
@@ -42,23 +64,12 @@ Most restaurants try to grow revenue by:
 
 ---
 
-### 💰 Revenue is Driven by Order Value (AOV)
-
-![Order Value Segmentation](visuals/wb5_order_value_segmentation.png)
-
-* High-value orders generate the majority of revenue
-* Mid-value orders represent the largest growth opportunity
-
-> **Insight:** Revenue is driven more by **order value** than by **order volume**
-
----
-
 ### 📈 Demand is Predictable
 
 ![Demand Forecast](visuals/wb6_demand_forecast.png)
 
-* Daily revenue fluctuates, but trends are stable
-* Enables forecasting and operational planning
+* Revenue trends are stable and forecastable
+* Enables planning for staffing and operations
 
 ---
 
@@ -68,8 +79,8 @@ Most restaurants try to grow revenue by:
 
 ![AOV Strategy](visuals/wb9_aov_strategy.png)
 
-* Introduce add-ons (e.g., cheese dip)
-* Use threshold-based nudging (e.g., $25 → $30)
+* Introduce high-margin add-ons (cheese dip, drinks)
+* Use threshold-based nudging (e.g., 25 → 30)
 * Convert mid-value orders into high-value orders
 
 ---
@@ -79,8 +90,20 @@ Most restaurants try to grow revenue by:
 ![Off-Peak Strategy](visuals/wb9_offpeak_strategy.png)
 
 * Off-peak demand exists but is under-monetized
-* Use time-based promotions and incentives
+* Introduce meal-style ordering and light incentives
 * Increase revenue without increasing labor cost
+
+---
+
+### 🍽️ Menu & Digital Ordering Optimization
+
+![Menu Strategy](visuals/wb10_menu_strategy.png)
+
+* Restructure menu to prioritize meals over single items
+* Surface add-ons (cheese dip, drinks) during ordering
+* Optimize online ordering flow (Toast / delivery apps)
+
+> Even without changing the physical menu, optimizing digital ordering increases AOV
 
 ---
 
@@ -93,45 +116,59 @@ Most restaurants try to grow revenue by:
 
 ---
 
+## 🧾 Owner Strategy Playbook (Workbook 10)
+
+This project concludes with a **non-technical execution layer**:
+
+* What to change on the menu
+* How to structure online ordering
+* How to increase order size without adding customers
+
+Key actions include:
+
+* Promote meals instead of single items
+* Attach add-ons to every order
+* Optimize peak-hour throughput
+* Monetize off-peak demand
+
+---
+
 ## 🧱 System Design Thinking
 
 This project is structured as a **layered analytics system**:
 
-```text
-Data → KPIs → Behavior → Drivers → Forecast → Strategy
-```
+Data → KPIs → Behavior → Drivers → Forecast → Strategy → Execution
 
-Unlike typical analysis projects:
+Unlike typical data projects:
 
-* Not focused on dashboards
-* Not focused on predictions alone
+* Not just dashboards
+* Not just predictions
 
-👉 Focused on **decision-making systems**
+👉 Designed for **real business decisions**
 
 ---
 
 ## 📁 Project Structure
 
-```text
 workbooks/
-  01_data_pipeline.ipynb
-  02_kpi_analysis.ipynb
-  03_demand_analysis.ipynb
-  04_business_strategy.ipynb
-  05_revenue_drivers.ipynb
-  06_forecasting.ipynb
-  07_experiments.ipynb
-  08_menu_strategy.ipynb
-  09_executive_report.ipynb
+01_data_pipeline.ipynb
+02_kpi_analysis.ipynb
+03_demand_analysis.ipynb
+04_business_strategy.ipynb
+05_revenue_drivers.ipynb
+06_forecasting.ipynb
+07_experiments.ipynb
+08_menu_strategy.ipynb
+09_executive_report.ipynb
+10_owner_strategy_playbook.ipynb
 
 data/
-  cleaned/
+cleaned/
 
 visuals/
-  (project screenshots)
+(project screenshots)
 
 README.md
-```
 
 ---
 
@@ -152,14 +189,14 @@ README.md
 ### 💡 Business Strategy
 
 * AOV optimization
-* Pricing & menu design
-* Operational efficiency
+* Pricing strategy
+* Menu engineering
 * Demand shaping
 
 ### 🧱 System Thinking
 
 * End-to-end analytics pipeline
-* Translating data → decisions
+* Translating data → decisions → execution
 * Designing scalable revenue systems
 
 ---
@@ -168,8 +205,9 @@ README.md
 
 * Revenue growth does not require more customers
 * Increasing **Average Order Value (AOV)** is the most effective lever
+* A small number of items drive most revenue
 * Off-peak demand is the largest untapped opportunity
-* Menu design and pricing directly influence customer behavior
+* Menu and ordering design directly influence customer behavior
 
 ---
 
@@ -184,18 +222,19 @@ This project:
 
 * Identifies revenue drivers
 * Designs business strategies
-* Connects data → operations → outcomes
+* Builds execution systems
+* Connects data → operations → revenue
 
-👉 Built to reflect **real-world decision-making**
+👉 Built to reflect **real-world business impact**
 
 ---
 
 ## 📌 Next Steps (Real-World Application)
 
-* Implement AOV strategies (add-ons, bundles)
+* Implement AOV strategies in POS (Toast)
+* Optimize online ordering flow
 * Test off-peak promotions
-* Optimize peak-hour operations
-* Track KPI impact over time
+* Track AOV and revenue lift over time
 
 ---
 
@@ -203,5 +242,3 @@ This project:
 
 Fernando Romero
 Data Analytics | Revenue Optimization | Systems Thinking
-
----
