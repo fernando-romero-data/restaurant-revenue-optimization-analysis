@@ -97,8 +97,6 @@ Most restaurants try to grow revenue by:
 
 ### 🍽️ Menu & Digital Ordering Optimization
 
-![Menu Strategy](visuals/wb10_menu_strategy.png)
-
 * Restructure menu to prioritize meals over single items
 * Surface add-ons (cheese dip, drinks) during ordering
 * Optimize online ordering flow (Toast / delivery apps)
