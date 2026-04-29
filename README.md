@@ -35,7 +35,7 @@ Most restaurants try to grow revenue by:
 
 ### 💰 Revenue is Driven by a Small Number of Items
 
-![Top Revenue Items](top_revenue_items.png)
+![Top Revenue Items](visuals/top_revenue_items.png)
 
 * A small group of menu items generates the majority of revenue
 * Core entrees and add-ons (e.g., cheese dip) drive performance
@@ -66,7 +66,7 @@ Most restaurants try to grow revenue by:
 
 ### 📈 Demand is Predictable
 
-![Demand Forecast](visuals/wb6_demand_forecast.png)
+![Demand Forecast](visuals/wb6_operational_planning.png)
 
 * Revenue trends are stable and forecastable
 * Enables planning for staffing and operations
