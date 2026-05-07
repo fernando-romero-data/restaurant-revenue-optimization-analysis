@@ -149,16 +149,16 @@ Unlike typical data projects:
 ## 📁 Project Structure
 
 workbooks/
-01_data_pipeline.ipynb
-02_kpi_analysis.ipynb
-03_demand_analysis.ipynb
-04_business_strategy.ipynb
-05_revenue_drivers.ipynb
-06_forecasting.ipynb
-07_experiments.ipynb
-08_menu_strategy.ipynb
-09_executive_report.ipynb
-10_owner_strategy_playbook.ipynb
+01_data_pipeline.ipynb,
+02_kpi_analysis.ipynb,
+03_demand_analysis.ipynb,
+04_business_strategy.ipynb,
+05_revenue_drivers.ipynb,
+06_forecasting.ipynb,
+07_experiments.ipynb,
+08_menu_strategy.ipynb,
+09_executive_report.ipynb,
+10_owner_strategy_playbook.ipynb,
 
 data/
 cleaned/
